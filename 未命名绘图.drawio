@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-20T06:50:02.687Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="0xN4xkD_LzzuCTa5rLD5" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-20T06:55:04.814Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="KWFKGIsLwaAMfRObKH7k" version="21.2.1" type="github">
   <diagram name="第 1 页" id="F6tR8DsvzvqYMDO8uXwj">
     <mxGraphModel dx="1167" dy="601" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,11 +73,38 @@
         <mxCell id="G2voatCrqY1tHl8I44f_-21" value="订单管理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="497" y="679" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="G2voatCrqY1tHl8I44f_-29" value="管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="158" y="934" width="30" height="60" as="geometry" />
+        <mxCell id="G2voatCrqY1tHl8I44f_-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G2voatCrqY1tHl8I44f_-29" target="G2voatCrqY1tHl8I44f_-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G2voatCrqY1tHl8I44f_-30" value="Use Case" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="398" y="831" width="140" height="70" as="geometry" />
+        <mxCell id="G2voatCrqY1tHl8I44f_-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2voatCrqY1tHl8I44f_-29" target="G2voatCrqY1tHl8I44f_-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2voatCrqY1tHl8I44f_-39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G2voatCrqY1tHl8I44f_-29" target="G2voatCrqY1tHl8I44f_-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2voatCrqY1tHl8I44f_-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G2voatCrqY1tHl8I44f_-29" target="G2voatCrqY1tHl8I44f_-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2voatCrqY1tHl8I44f_-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G2voatCrqY1tHl8I44f_-29" target="G2voatCrqY1tHl8I44f_-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2voatCrqY1tHl8I44f_-29" value="管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="203" y="938" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2voatCrqY1tHl8I44f_-30" value="学生管理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="812" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="G2voatCrqY1tHl8I44f_-33" value="商品管理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="889" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="G2voatCrqY1tHl8I44f_-34" value="评论管理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="962" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="G2voatCrqY1tHl8I44f_-35" value="举报管理&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1040" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="G2voatCrqY1tHl8I44f_-36" value="商品分类管理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1118" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
